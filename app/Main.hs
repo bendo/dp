@@ -1,6 +1,8 @@
 module Main (main) where
 
-import Lib
+import           App
+import           Brick
 
 main :: IO ()
-main = someFunc
+main = simpleMain ui
+
